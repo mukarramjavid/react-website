@@ -1,0 +1,30 @@
+
+.footer .footer-desc{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    /* font-size: 50px; */
+}
+
+.social li {
+    display: inline-block;
+
+    margin-right: auto;
+}
+.social li a i:hover{
+    color: #1661b6;
+    transition: 0.4s;
+}
+.btn i {
+
+    line-height: 10px;
+    font-size: 30px;
+    transition: 0.2s linear;
+    color: #000;
+
+}
+
+.btn i:hover {
+    transition: 0.2s linear;
+    color: #000;
+
+}

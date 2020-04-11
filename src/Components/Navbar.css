@@ -1,0 +1,8 @@
+#root .navbar-default{
+  font-family: 'Roboto', sans-serif;
+  background-color: #25559F;  
+  border: #25559F;
+}
+#root .navbar-default .color,#root .color a{
+  color: white;
+}
