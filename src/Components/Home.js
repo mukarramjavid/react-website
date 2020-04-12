@@ -16,7 +16,7 @@ const Home = () => {
       <Jumbotron className="home">
         <h1>Welcome to TESCO.</h1>
         <p>
-          This is how to build a website with React, React-bootstrap and
+          This is how to build a website with React,Bootstrap, React-bootstrap and
           React-Router.
         </p>
         <Link to="/About">
