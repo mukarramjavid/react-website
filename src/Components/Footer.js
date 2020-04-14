@@ -33,6 +33,15 @@ export default function Footer() {
                     <i className="fab fa-facebook"></i>
                   </a>
                 </li>
+    
+                 <li>
+                  <a
+                    className="btn "
+                    href="<i class="fab fa-github"></i>"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
               </ul>
             </Col>
           </Row>
