@@ -36,8 +36,8 @@ export default function Footer() {
     
                  <li>
                   <a
-                    className="btn "
-                    href="<i class="fab fa-github"></i>"
+                    className="btn"
+                    href="https://github.com/mukarramjavid/"
                   >
                     <i class="fab fa-github"></i>
                   </a>
