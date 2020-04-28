@@ -56,21 +56,12 @@ export default class Forms extends Component {
     ) {
       alert("All Fields are Required. . !\nPlease Fill out those fields!");
     }
-    // else{
-    //   alert('Thanks for reaching..!!')
-    //   // ()
-    //   // const name1=this.state.name;
-    //   // const email1=this.state.email;
-    //   // const password1=this.state.password;
-    //   // this.setState({name1:"",email1:'',password1:''})
-
-    // }
   };
   render() {
     return (
       <Grid className="form">
         <Row className="show-grid">
-          <Col md={4} sm={6} xs={12}>
+          <Col md={4} sm={6} xs={12} xsHidden>
             <Caldener />
           </Col>
           <Col md={8} sm={6} xs={12}>
