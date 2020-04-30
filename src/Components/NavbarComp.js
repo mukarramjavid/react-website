@@ -8,7 +8,7 @@ const NavbarComp = () => {
     <Navbar collapseOnSelect fixedTop className="navbar">
       <Navbar.Header>
         <Navbar.Brand>
-         <Link to="/" exact className="color">Mukarram</Link>
+         <Link to="/" className="color">Mukarram</Link>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
