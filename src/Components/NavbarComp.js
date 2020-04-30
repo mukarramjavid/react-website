@@ -8,7 +8,7 @@ const NavbarComp = () => {
     <Navbar collapseOnSelect fixedTop className="navbar">
       <Navbar.Header>
         <Navbar.Brand>
-         <Link to="/" className="color">Mukarram</Link>
+         <Link to="/" exact className="color">Mukarram</Link>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
@@ -17,7 +17,7 @@ const NavbarComp = () => {
           <NavItem eventKey={1} componentClass={Link} href="/About" to="/About" className="color">
             About
           </NavItem>
-          <NavItem eventKey={1} componentClass={Link} href="/Contact" to="/Contact" className="color">
+          <NavItem eventKey={2} componentClass={Link} href="/Contact" to="/Contact" className="color">
           Contact
           </NavItem>
         </Nav>
