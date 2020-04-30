@@ -14,10 +14,10 @@ const NavbarComp = () => {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
-          <NavItem eventKey={1} componentClass={Link} href="/About" to="/About" className="color">
+          <NavItem  componentClass={Link} href="/About" to="/About" className="color">
             About
           </NavItem>
-          <NavItem eventKey={2} componentClass={Link} href="/Contact" to="/Contact" className="color">
+          <NavItem componentClass={Link} href="/Contact" to="/Contact" className="color">
           Contact
           </NavItem>
         </Nav>
